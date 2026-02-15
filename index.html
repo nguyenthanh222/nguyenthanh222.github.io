@@ -5,64 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nguyễn Thi Anh Thành | Data Analyst Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body class="bg-gray-900 text-white font-sans">
+<body class="bg-gray-900 text-white font-sans selection:bg-teal-500 selection:text-white">
 
-    <header class="py-10 text-center">
-        <h1 class="text-4xl font-bold text-teal-400">Nguyễn Thi Anh Thành</h1>
-        <p class="text-xl mt-2 text-gray-400">Data Analyst | Python | SQL | Power BI</p>
+    <header class="py-16 px-4 text-center bg-gradient-to-b from-gray-800 to-gray-900">
+        <h1 class="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500">
+            Nguyễn Thi Anh Thành
+        </h1>
+        <p class="text-xl mt-4 text-gray-400 font-light tracking-widest uppercase">Data Analyst</p>
+        <div class="flex justify-center gap-6 mt-6">
+            <a href="https://github.com/nguyenthanh222" class="hover:text-teal-400 transition"><i class="fab fa-github text-2xl"></i></a>
+            <a href="mailto:anhthanhnguyenthi202@gmail.com" class="hover:text-teal-400 transition"><i class="fas fa-envelope text-2xl"></i></a>
+        </div>
     </header>
 
-    <section class="max-w-4xl mx-auto px-4 py-10">
-        <h2 class="text-2xl font-semibold border-b-2 border-teal-500 inline-block mb-6">Về tôi</h2>
-        <p class="text-gray-300 leading-relaxed">
-            Passionate Data Analyst with a strong foundation in data cleaning, analysis, and visualization.
-          I enjoy transforming complex datasets into actionable insights. Proficient in Python, SQL, and building interactive dashboards to support data-driven decision-making.
+    <section class="max-w-5xl mx-auto px-6 py-10">
+        <div class="flex flex-wrap justify-center gap-4">
+            <span class="px-4 py-2 bg-gray-800 border border-teal-500/30 rounded-full text-teal-400 text-sm">Python (Pandas, Numpy)</span>
+            <span class="px-4 py-2 bg-gray-800 border border-teal-500/30 rounded-full text-teal-400 text-sm">SQL (MySQL, BigQuery)</span>
+            <span class="px-4 py-2 bg-gray-800 border border-teal-500/30 rounded-full text-teal-400 text-sm">Tableau & Power BI</span>
+            <span class="px-4 py-2 bg-gray-800 border border-teal-500/30 rounded-full text-teal-400 text-sm">Data Cleaning & EDA</span>
+            <span class="px-4 py-2 bg-gray-800 border border-teal-500/30 rounded-full text-teal-400 text-sm">Forecasting</span>
+        </div>
+    </section>
+
+    <section class="max-w-4xl mx-auto px-6 py-10">
+        <h2 class="text-2xl font-bold border-l-4 border-teal-500 pl-4 mb-6">Professional Summary</h2>
+        <p class="text-gray-300 leading-relaxed text-lg">
+            Passionate Data Analyst with a strong foundation in data cleaning, analysis, and visualization. 
+            I enjoy transforming complex datasets into actionable insights. Proficient in Python, SQL, and building 
+            interactive dashboards to support data-driven decision-making.
         </p>
     </section>
 
-    <section class="max-w-4xl mx-auto px-4 py-10">
-        <h2 class="text-2xl font-semibold border-b-2 border-teal-500 inline-block mb-6">Dự án GitHub</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <section class="max-w-6xl mx-auto px-6 py-10">
+        <h2 class="text-2xl font-bold border-l-4 border-teal-500 pl-4 mb-10">Featured Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             
-            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                <h3 class="text-xl font-bold text-teal-300">Flood-It-Game-Analytics</h3>
-                <p class="text-gray-400 mt-2 text-sm">This project analyzes player behavior data from the "Flood-It!" game during a 72-hour window (Oct 01, 2018 – Oct 03, 2018)."Flood-It!" is a strategic puzzle game. Despite a high volume of initial users, the game faces challenges in maintaining Retention and converting free users</p>
-                <a href="https://github.com/nguyenthanh222/Flood-It-Game-Analytics" class="text-teal-500 mt-4 inline-block hover:underline">Xem thêm →</a>
+            <div class="group bg-gray-800 p-6 rounded-2xl border border-gray-700 hover:border-teal-500 transition-all duration-300 shadow-xl flex flex-col justify-between">
+                <div>
+                    <div class="text-teal-500 mb-4"><i class="fas fa-chart-line text-3xl"></i></div>
+                    <h3 class="text-xl font-bold group-hover:text-teal-400 transition">Google Fiber Efficiency</h3>
+                    <p class="text-gray-400 mt-3 text-sm leading-relaxed">Phân tích hiệu quả hỗ trợ khách hàng, tỷ lệ FCR trên 3 thị trường lớn. Sử dụng **BigQuery (SQL)** và **Tableau**.</p>
+                </div>
+                <a href="https://github.com/nguyenthanh222/Google-Fiber---Customer-Support-Repeat-Callers-Analysis" class="mt-6 text-teal-500 font-semibold hover:text-teal-300 inline-flex items-center">View Case Study <i class="fas fa-arrow-right ml-2 text-xs"></i></a>
             </div>
 
-            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                <h3 class="text-xl font-bold text-teal-300">Automotive-Sales-Data-Insights-Visualization</h3>
-                <p class="text-gray-400 mt-2 text-sm">Dự án này tập trung vào việc phân tích dữ liệu thị trường ô tô từ bộ dữ liệu Kaggle, khám phá mối quan hệ giữa các thông số kỹ thuật của xe (mã lực, hiệu suất nhiên liệu, loại xe) và giá trị thương mại của chúng (doanh số, giá bán, giá trị bán lại sau 4 năm)..</p>
-                <a href="https://github.com/nguyenthanh222/Automotive-Sales-Data-Insights-Visualization" class="text-teal-500 mt-4 inline-block hover:underline">Xem thêm →</a>
+            <div class="group bg-gray-800 p-6 rounded-2xl border border-gray-700 hover:border-teal-500 transition-all duration-300 shadow-xl flex flex-col justify-between">
+                <div>
+                    <div class="text-teal-500 mb-4"><i class="fas fa-bolt text-3xl"></i></div>
+                    <h3 class="text-xl font-bold group-hover:text-teal-400 transition">Tet 2026 Sales Analytics</h3>
+                    <p class="text-gray-400 mt-3 text-sm leading-relaxed">Dự đoán doanh số Tết, tối ưu tồn kho và triển khai Dashboard tương tác bằng **Python & Gradio**.</p>
+                </div>
+                <a href="https://github.com/nguyenthanh222/Tet-sales-analytics" class="mt-6 text-teal-500 font-semibold hover:text-teal-300 inline-flex items-center">View Project <i class="fas fa-arrow-right ml-2 text-xs"></i></a>
             </div>
 
-            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                <h3 class="text-xl font-bold text-teal-300">Tet 2026 Sales Analytics & Forecasting Dashboard</h3>
-                <p class="text-gray-400 mt-2 text-sm">Dự án Phân tích Dữ liệu Đầu cuối: Dự đoán xu hướng doanh số Tết Nguyên đán 2026, tối ưu hóa tồn kho (DOS) và triển khai Bảng điều khiển tương tác sử dụng Python, SQLite và Gradio.</p>
-                <a href="https://github.com/nguyenthanh222/Tet-sales-analytics" class="text-teal-500 mt-4 inline-block hover:underline">Xem thêm →</a>
+            <div class="group bg-gray-800 p-6 rounded-2xl border border-gray-700 hover:border-teal-500 transition-all duration-300 shadow-xl flex flex-col justify-between">
+                <div>
+                    <div class="text-teal-500 mb-4"><i class="fas fa-broom text-3xl"></i></div>
+                    <h3 class="text-xl font-bold group-hover:text-teal-400 transition">World Layoffs Cleaning</h3>
+                    <p class="text-gray-400 mt-3 text-sm leading-relaxed">Làm sạch dữ liệu thô lộn xộn bằng **MySQL** và thực hiện EDA tìm xu hướng thị trường việc làm toàn cầu.</p>
+                </div>
+                <a href="https://github.com/nguyenthanh222/World-Layoffs-Data-Cleaning-Analysis" class="mt-6 text-teal-500 font-semibold hover:text-teal-300 inline-flex items-center">View Analysis <i class="fas fa-arrow-right ml-2 text-xs"></i></a>
             </div>
 
-            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                <h3 class="text-xl font-bold text-teal-300">World-Layoffs-Data-Cleaning-Analysis</h3>
-                <p class="text-gray-400 mt-2 text-sm">Dự án này tập trung vào việc làm sạch và phân tích bộ dữ liệu về tình trạng sa thải trên toàn thế giới từ năm 2020 đến năm 2023. Sử dụng MySQL, tôi đã chuyển đổi bộ dữ liệu thô lộn xộn thành định dạng sạch và thực hiện Phân tích Dữ liệu Khám phá (EDA) để tìm ra các xu hướng trong thị trường việc làm toàn cầu trong và sau đại dịch.</p>
-                <a href="https://github.com/nguyenthanh222/World-Layoffs-Data-Cleaning-Analysis" class="text-teal-500 mt-4 inline-block hover:underline">Xem thêm →</a>
+            <div class="group bg-gray-800 p-6 rounded-2xl border border-gray-700 hover:border-teal-500 transition-all duration-300 shadow-xl flex flex-col justify-between">
+                <div>
+                    <div class="text-teal-500 mb-4"><i class="fas fa-gamepad text-3xl"></i></div>
+                    <h3 class="text-xl font-bold group-hover:text-teal-400 transition">Flood-It Analytics</h3>
+                    <p class="text-gray-400 mt-3 text-sm leading-relaxed">Phân tích hành vi người chơi game puzzle để giải quyết thách thức về tỷ lệ giữ chân (Retention).</p>
+                </div>
+                <a href="https://github.com/nguyenthanh222/Flood-It-Game-Analytics" class="mt-6 text-teal-500 font-semibold hover:text-teal-300 inline-flex items-center">View Details <i class="fas fa-arrow-right ml-2 text-xs"></i></a>
             </div>
 
-            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                <h3 class="text-xl font-bold text-teal-300">Google Fiber: Customer Support Efficiency & Repeat Caller Analysis</h3>
-                <p class="text-gray-400 mt-2 text-sm">Phân tích dữ liệu Google Fiber: Tối ưu hóa hiệu quả hỗ trợ khách hàng bằng cách phân tích xu hướng người gọi lại và tỷ lệ giải quyết vấn đề ngay lần liên hệ đầu tiên (FCR) trên 3 thị trường. Được xây dựng bằng BigQuery (SQL) và Tableau.</p>
-                <a href="https://github.com/nguyenthanh222/Google-Fiber---Customer-Support-Repeat-Callers-Analysis" class="text-teal-500 mt-4 inline-block hover:underline">Xem thêm →</a>
+            <div class="group bg-gray-800 p-6 rounded-2xl border border-gray-700 hover:border-teal-500 transition-all duration-300 shadow-xl flex flex-col justify-between">
+                <div>
+                    <div class="text-teal-500 mb-4"><i class="fas fa-car text-3xl"></i></div>
+                    <h3 class="text-xl font-bold group-hover:text-teal-400 transition">Automotive Sales Insights</h3>
+                    <p class="text-gray-400 mt-3 text-sm leading-relaxed">Phân tích mối quan hệ giữa thông số kỹ thuật xe và doanh số bán hàng từ dữ liệu Kaggle.</p>
+                </div>
+                <a href="https://github.com/nguyenthanh222/Automotive-Sales-Data-Insights-Visualization" class="mt-6 text-teal-500 font-semibold hover:text-teal-300 inline-flex items-center">View Project <i class="fas fa-arrow-right ml-2 text-xs"></i></a>
             </div>
-
-            
 
         </div>
     </section>
 
-    <footer class="text-center py-20 text-gray-500 text-sm">
-        <p>Email: anhthanhnguyenthi202@gmail.com</p>
-        <p class="mt-2">GitHub: github.com/nguyenthanh222</p>
+    <footer class="bg-gray-800/50 py-12 mt-20 border-t border-gray-800">
+        <div class="max-w-4xl mx-auto text-center px-4">
+            <h2 class="text-xl font-semibold text-white mb-4">Let's Connect!</h2>
+            <p class="text-gray-400 mb-6">Đừng ngần ngại liên hệ nếu bạn quan tâm đến các dự án của mình.</p>
+            <div class="text-gray-300 space-y-2">
+                <p><i class="fas fa-envelope mr-2 text-teal-500"></i> anhthanhnguyenthi202@gmail.com</p>
+                <p><i class="fab fa-github mr-2 text-teal-500"></i> github.com/nguyenthanh222</p>
+            </div>
+            <p class="mt-10 text-gray-600 text-xs tracking-widest uppercase">&copy; 2026 Nguyễn Thị Anh Thành</p>
+        </div>
     </footer>
 
 </body>
